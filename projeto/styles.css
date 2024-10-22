@@ -129,3 +129,50 @@ h1 {
     justify-content: center; /* Centraliza horizontalmente o conteúdo */
     text-align: center; /* Centraliza o texto dentro das caixas */
 }
+/* Estilo para o container do dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;             /* Arredonda os cantos do botão */
+    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
+}
+
+/* Estilo para o botão do dropdown */
+.dropbtn {
+    background-color: #6c0000; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;             /* Arredonda os cantos do botão */
+    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
+}
+
+/* Estilo para o conteúdo do dropdown (menu oculto) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Estilo para os links dentro do dropdown */
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Estilo quando o link dentro do dropdown for "hovered" */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Exibe o menu dropdown ao passar o mouse ou clicar */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
