@@ -45,14 +45,6 @@ h1 {
     border-radius: 5px;             /* Bordas arredondadas */
     display: inline-block;           /* Permite padding e margem */
     transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
-    
-
-    position: fixed;
-    right: 0; /* Posiciona na lateral esquerda */
-    transform: translateY(-100%); /* Centraliza e rotaciona o texto */
-
-    font-weight: bold;
-    letter-spacing: 2px;
 }
 
 .contato a:hover {
