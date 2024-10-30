@@ -52,7 +52,6 @@ h1 {
 
 .contato a:hover {
     background-color:#af8330;         /* Muda a cor de fundo ao passar o mouse */
-    position: relative;
 }
 .oficial {
     margin-top: 20px; /* Espaço acima do botão */
