@@ -15,18 +15,21 @@ body {
 
 header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 10px;
     background-color:#D9AC59;
     color:aliceblue;
 }
+.logo img{
+    width: 180px;
+    height: 180px;
+}
 .logo {
-    width: 150px;
-    height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    margin-right: auto;
 }
 
 h1 {
@@ -49,7 +52,6 @@ h1 {
 
 .contato a:hover {
     background-color:#af8330;         /* Muda a cor de fundo ao passar o mouse */
-    position: relative;
 }
 .oficial {
     margin-top: 20px; /* Espaço acima do botão */
