@@ -36,59 +36,7 @@ h1 {
     font-size: 30px;
 }
 
-.contato {
-    margin-top: 20px; /* Espaço acima do botão */
-}
 
-.contato a {
-    text-decoration: none;           /* Remove o sublinhado */
-    color: white;                   /* Cor do texto */
-    background-color:#D9AC59;           /* Cor de fundo do botão */
-    padding: 10px 20px;             /* Espaçamento interno do botão */
-    border-radius: 5px;             /* Bordas arredondadas */
-    display: inline-block;           /* Permite padding e margem */
-    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
-}
-.contato a:hover {
-    background-color:#af8330;         /* Muda a cor de fundo ao passar o mouse */
-}
-
-.cont a:hover {
-    background-color:#af8330;         /* Muda a cor de fundo ao passar o mouse */
-}
-
-.cont {
-    margin-top: 20px; /* Espaço acima do botão */
-}
-
-.cont a {
-    text-decoration: none;           /* Remove o sublinhado */
-    color: white;                   /* Cor do texto */
-    background-color:#D9AC59;           /* Cor de fundo do botão */
-    padding: 10px 20px;             /* Espaçamento interno do botão */
-    border-radius: 5px;             /* Bordas arredondadas */
-    display: inline-block;           /* Permite padding e margem */
-    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
-}
-
-
-.oficial {
-    margin-top: 20px; /* Espaço acima do botão */
-}
-
-.oficial a {
-    text-decoration: none;           /* Remove o sublinhado */
-    color: white;                   /* Cor do texto */
-    background-color: #D9AC59;           /* Cor de fundo do botão */
-    padding: 10px 20px;             /* Espaçamento interno do botão */
-    border-radius: 5px;             /* Bordas arredondadas */
-    display: inline-block;           /* Permite padding e margem */
-    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
-}
-
-.oficial a:hover {
-    background-color:#af8330;         /* Muda a cor de fundo ao passar o mouse */
-}
 .menu {
     background-color: #ffffff; 
     margin-top: 20px;
@@ -97,13 +45,12 @@ h1 {
     justify-content: center;
     color: aliceblue;
     padding: 10px;
-    
 }
 .menu a {
     text-decoration: none;           /* Remove o sublinhado padrão dos links */
     color: white;                   /* Define a cor do texto como branco */
     background-color: #D9AC59;         /* Define a cor de fundo do botão */
-    padding: 10px 20px;             /* Adiciona espaçamento interno ao botão */
+    padding: 10px 15px;             /* Adiciona espaçamento interno ao botão */
     border-radius: 5px;             /* Arredonda os cantos do botão */
     transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
 }
@@ -113,7 +60,7 @@ h1 {
 .menu ul {
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 8px;
 }
 
 .menu li {
@@ -152,6 +99,50 @@ h1 {
     align-items: center; /* Centraliza verticalmente o conteúdo */
     justify-content: center; /* Centraliza horizontalmente o conteúdo */
     text-align: center; /* Centraliza o texto dentro das caixas */
+}
+
+.contato {
+    position: relative;
+    display: inline-block;
+   /*  border-radius: 5px;             Arredonda os cantos do botão */
+    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
+}
+.contato button:hover {
+    background-color:#af8330;         /* Muda a cor de fundo para um tom mais claro ao passar o mouse */
+}
+
+/* Estilo para o botão do dropdown */
+.cont {
+    background-color:#D9AC59; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px ;            /*  Arredonda os cantos do botão */
+    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
+}
+
+.oficial {
+    position: relative;
+    display: inline-block;
+   /*  border-radius: 5px;             Arredonda os cantos do botão */
+    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
+}
+.oficial a:hover {
+    background-color:#af8330;         /* Muda a cor de fundo para um tom mais claro ao passar o mouse */
+}
+
+/* Estilo para o botão do dropdown */
+.ofc {
+    background-color:#D9AC59; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px ;            /*  Arredonda os cantos do botão */
+    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
 }
 
 

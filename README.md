@@ -22,4 +22,41 @@ PROJETO INTEGRADOR - FAROL UNIVERSITÁRIO
             - curricularização
 
 
+            .contato {
+    margin-top: 20px; /* Espaço acima do botão */
+}
+
+.contato a {
+    text-decoration: none;           /* Remove o sublinhado */
+    color: white;                   /* Cor do texto */
+    background-color:#D9AC59;           /* Cor de fundo do botão */
+    padding: 10px 20px;             /* Espaçamento interno do botão */
+    border-radius: 5px;             /* Bordas arredondadas */
+    display: inline-block;           /* Permite padding e margem */
+    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
+}
+.contato a:hover {
+    background-color:#af8330;         /* Muda a cor de fundo ao passar o mouse */
+}
+
+.cont a:hover {
+    background-color:#af8330;         /* Muda a cor de fundo ao passar o mouse */
+}
+
+.cont {
+    margin-top: 20px; /* Espaço acima do botão */
+}
+
+.cont a {
+    text-decoration: none;           /* Remove o sublinhado */
+    color: white;                   /* Cor do texto */
+    background-color:#D9AC59;           /* Cor de fundo do botão */
+    padding: 10px 20px;             /* Espaçamento interno do botão */
+    border-radius: 5px;             /* Bordas arredondadas */
+    display: inline-block;           /* Permite padding e margem */
+    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
+}
+
+
+
         
