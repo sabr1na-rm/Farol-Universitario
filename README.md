@@ -10,8 +10,6 @@ PROJETO INTEGRADOR - FAROL UNIVERSITÁRIO
     - VIVENCIAS: area de integracao para os alunos 
             - conheca a PUC
             - atleticas
-            - eventos
-            - GVCS
             - Social
     - OUTROS: outras informações
             - iniciação cientifica
