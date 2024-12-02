@@ -176,24 +176,27 @@ h1 {
 }
 
 .left-box {
-    width: 20%; /* Largura da caixa */
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    display: flex;
-    flex-direction: column;      /* Organiza os itens na vertical */
-    justify-content: flex-start; /* Garante que o conteúdo comece do topo */
-    margin-left: 30px;
+    display: flex;               /* Ativa Flexbox */
+    flex-direction: column;      /* Alinha itens na vertical */
+    align-items: flex-start;     /* Alinha os itens ao início */
+    justify-content: flex-start; /* Alinha ao topo */
+    width: 20%;                  /* Define a largura da caixa */
+    padding: 20px;               /* Adiciona espaçamento interno */
+    background-color: #ffffff;   /* Define o fundo branco */
+    border: 1px solid #ddd;      /* Define uma borda leve */
+    border-radius: 8px;          /* Arredonda os cantos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    height: auto;                /* Ajusta automaticamente com base no conteúdo */
+    text-align: left;            /* Alinha o texto à esquerda */
 }
+
 
 .left-box h3 {
     font-size: 1.4rem;
     color: #D9AC59;
     margin-bottom: 10px;
     margin-top: 0; /* Garante que o título fique no topo */
+    
 }
 
 .left-box h4 {
@@ -204,12 +207,50 @@ h1 {
     text-align:left;
     width: 100%;
 }
-
+.BRUNA{
+    display: flex;
+    flex-direction:row;
+}
+.BRUNA img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 25px;
+    
+}
+.BRUNA{
+    display: flex;
+    flex-direction:row;
+}
+.GAB img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 25px;
+}
+.LARI img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 25px;
+}
+.SAB img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+.RE img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 25px;
+    
+}
 .left-box p {
-    font-size: 1rem;
+   
+    font-size: 13px;
     color: #444;
     line-height: 1.5;
     text-align: justify;
+    margin-left: 10px;
+    margin-top: 10px;
+    
 }
 
 .right-box {
