@@ -156,7 +156,7 @@ h1 {
 .sobre-nos h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #D9AC59;
 }
 
 .sobre-nos p {
@@ -176,7 +176,7 @@ h1 {
 }
 
 .left-box {
-    width: 30%; /* Largura da caixa */
+    width: 20%; /* Largura da caixa */
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #ddd;
@@ -186,6 +186,7 @@ h1 {
     display: flex;
     flex-direction: column;      /* Organiza os itens na vertical */
     justify-content: flex-start; /* Garante que o conteúdo comece do topo */
+    margin-left: 30px;
 }
 
 .left-box h3 {
@@ -193,6 +194,15 @@ h1 {
     color: #D9AC59;
     margin-bottom: 10px;
     margin-top: 0; /* Garante que o título fique no topo */
+}
+
+.left-box h4 {
+    font-size: 1.4rem;
+    color: #D9AC59;
+    margin-bottom: 10px;
+    margin-top: 0; /* Garante que o título fique no topo */
+    text-align:left;
+    width: 100%;
 }
 
 .left-box p {
@@ -203,13 +213,14 @@ h1 {
 }
 
 .right-box {
-    width: 60%; /* Caixa maior, com 60% de largura */
-    padding: 20px;
+    width: 70%; /* Caixa maior, com 60% de largura */
+    padding: 50px;
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-right: 60px;
 }
 
 .right-box h3 {
