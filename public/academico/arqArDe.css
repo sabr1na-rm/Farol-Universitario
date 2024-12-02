@@ -7,7 +7,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-size: cover;
-    background-color: aliceblue;
+    background-color: rgb(208, 217, 225);
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 20px;
@@ -144,6 +144,110 @@ h1 {
     border-radius: 5px ;            /*  Arredonda os cantos do botão */
     transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
 }
+
+.sobre-nos {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.sobre-nos h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #D9AC59;
+}
+
+.sobre-nos p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.left-box {
+    width: 20%; /* Largura da caixa */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;      /* Organiza os itens na vertical */
+    justify-content: flex-start; /* Garante que o conteúdo comece do topo */
+    margin-left: 30px;
+}
+
+.left-box h3 {
+    font-size: 1.4rem;
+    color: #D9AC59;
+    margin-bottom: 10px;
+    margin-top: 0; /* Garante que o título fique no topo */
+}
+
+.left-box p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.right-box {
+    width: 70%; /* Caixa maior, com 60% de largura */
+    padding: 50px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-right: 60px;
+}
+
+.right-box h3 {
+    font-size: 1.4rem;
+    color: #D9AC59;
+    margin-bottom: 10px;
+}
+
+.right-box p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-box, .right-box {
+        width: 90%; /* Ajusta as larguras para 90% em telas menores */
+    }
+
+    .sobre-nos h2 {
+        font-size: 1.8rem;
+    }
+}
+
+
+
+
+
+
 
 
 
