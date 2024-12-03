@@ -168,11 +168,11 @@ h1 {
 }
 
 .content {
-    display: flex;
-    justify-content: space-between;
-    gap: 5px;
-    flex-wrap: wrap;
-    margin-top: 20px;
+    display: justify;
+    justify-content: justify; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente (opcional) */
+    min-height: 10vh; /* Garante altura total da página */
+    background-color: #f4f4f4; /* Fundo para destacar */
 }
 
 .left-box {
@@ -204,14 +204,14 @@ h1 {
 }
 
 .right-box {
-    width: 70%; /* Caixa maior, com 60% de largura */
+    width: 80%; /* Caixa maior, com 60% de largura */
     padding: 50px;
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-right: 60px;
+    margin: 20px - auto;
 }
 
 .right-box h3 {
