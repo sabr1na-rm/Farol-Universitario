@@ -181,7 +181,7 @@ h1 {
     align-items: flex-start;     /* Alinha os itens ao início */
     justify-content: flex-start; /* Alinha ao topo */
     width: 20%;                  /* Define a largura da caixa */
-    padding: 20px;               /* Adiciona espaçamento interno */
+    padding: 10px;               /* Adiciona espaçamento interno */
     background-color: #ffffff;   /* Define o fundo branco */
     border: 1px solid #ddd;      /* Define uma borda leve */
     border-radius: 8px;          /* Arredonda os cantos */
@@ -207,34 +207,27 @@ h1 {
     text-align:left;
     width: 100%;
 }
-.BRUNA{
+.BRUNA, .GAB, .LARI{
     display: flex;
     flex-direction:row;
 }
-.BRUNA img{
+.BRUNA img, .GAB img, .LARI img{
     width: 90px;
     height: 90px;
     margin-bottom: 25px;
-    
 }
-.BRUNA{
+.SAB{
     display: flex;
     flex-direction:row;
-}
-.GAB img{
-    width: 90px;
-    height: 90px;
-    margin-bottom: 25px;
-}
-.LARI img{
-    width: 90px;
-    height: 90px;
-    margin-bottom: 25px;
 }
 .SAB img{
     width: 90px;
     height: 90px;
     margin-bottom: 30px;
+}
+.RE{
+    display: flex;
+    flex-direction:row;
 }
 .RE img{
     width: 90px;
