@@ -83,7 +83,7 @@ h1 {
 }
 .auxiliar{
     width: 100%;
-    height: 100vh;
+    height: auto;
     padding: 10px;
     background: #f9f9f9;
     border-radius: 10px;
@@ -222,8 +222,16 @@ h1 {
 
 .right-box h3 {
     font-size: 1.4rem;
+    font-size: 1.8rem;
     color: #D9AC59;
     margin-bottom: 10px;
+}
+
+.right-box h4 {
+    font-size: 1.2rem;
+    color: #D9AC59;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 .right-box p {
