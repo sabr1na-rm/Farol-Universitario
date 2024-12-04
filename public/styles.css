@@ -192,15 +192,40 @@ h1 {
     justify-content: flex-start; /* Alinha ao topo */
     width: 20%;                  /* Define a largura da caixa */
     padding: 20px;               /* Adiciona espaçamento interno */
+    padding: 10px;               /* Adiciona espaçamento interno */
     background-color: #ffffff;   /* Define o fundo branco */
     border: 1px solid #ddd;      /* Define uma borda leve */
     border-radius: 8px;          /* Arredonda os cantos */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
-    height: auto;                /* Ajusta automaticamente com base no conteúdo */
-    text-align: left;            /* Alinha o texto à esquerda */
+    text-align:left;
+    width: 100%;
 }
+.BRUNA, .GAB, .LARI{
+    display: flex;
+    flex-direction:row;
+}
+.BRUNA img, .GAB img, .LARI img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 25px;
 
-
+}
+.SAB{
+    display: flex;
+    flex-direction:row;
+}
+.SAB img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+.RE{
+    display: flex;
+    flex-direction:row;
+}
+.RE img{
+    width: 90px;
+    height: 90px;
+}
 .left-box h3 {
     font-size: 1.4rem;
     color: #D9AC59;
