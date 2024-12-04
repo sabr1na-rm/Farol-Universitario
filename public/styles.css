@@ -87,7 +87,7 @@ h1 {
 
 .auxiliar{
     width: 100%;
-    height: 100vh;
+    height: auto;
     padding: 10px;
     background: #f9f9f9;
     border-radius: 10px;
@@ -196,8 +196,9 @@ h1 {
     background-color: #ffffff;   /* Define o fundo branco */
     border: 1px solid #ddd;      /* Define uma borda leve */
     border-radius: 8px;          /* Arredonda os cantos */
-    text-align:left;
-    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    height: auto;                /* Ajusta automaticamente com base no conteúdo */
+    text-align: left;            /* Alinha o texto à esquerda */
 }
 .BRUNA, .GAB, .LARI{
     display: flex;
@@ -241,41 +242,6 @@ h1 {
     margin-top: 0; /* Garante que o título fique no topo */
     text-align:left;
     width: 100%;
-}
-.BRUNA{
-    display: flex;
-    flex-direction:row;
-}
-.BRUNA img{
-    width: 90px;
-    height: 90px;
-    margin-bottom: 25px;
-    
-}
-.BRUNA{
-    display: flex;
-    flex-direction:row;
-}
-.GAB img{
-    width: 90px;
-    height: 90px;
-    margin-bottom: 25px;
-}
-.LARI img{
-    width: 90px;
-    height: 90px;
-    margin-bottom: 25px;
-}
-.SAB img{
-    width: 90px;
-    height: 90px;
-    margin-bottom: 30px;
-}
-.RE img{
-    width: 90px;
-    height: 90px;
-    margin-bottom: 25px;
-    
 }
 .left-box p {
    
