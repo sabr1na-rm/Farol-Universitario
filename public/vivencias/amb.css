@@ -7,9 +7,11 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-size: cover;
+    background-color: rgb(208, 217, 225);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: url("../assents/inicial/PUC-aerea-02.jpg");
+    padding: 20px;
 }
 
 header {
@@ -81,13 +83,6 @@ h1 {
     margin-top: 30px;
     text-align: center;
 }
-.auxiliar{
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    background: #f9f9f9;
-    border-radius: 10px;
-}
 
 .content {
     display: flex;
@@ -155,7 +150,7 @@ h1 {
     margin-top: 30px;
     text-align: center;
     padding: 20px;
-    background-color: transparent;
+    background-color: #f9f9f9;
     border-radius: 8px;
 }
 
@@ -181,36 +176,43 @@ h1 {
     margin-top: 20px;
 }
 
-.left-box {
-    width: 20%; /* Largura da caixa */
+/*.left-box {
+    width: 20%; /* Largura da caixa 
     padding: 20px;
+    align-items: flex-start;
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex;
-    flex-direction: column;      /* Organiza os itens na vertical */
-    justify-content: flex-start; /* Garante que o conteúdo comece do topo */
+    flex-direction: column;      /* Organiza os itens na vertical 
+    justify-content: flex-start; /* Garante que o conteúdo comece do topo 
     margin-left: 30px;
+    height: auto;
+}*/
+.puc1 img{
+    width: 700px;
+    height:700px ;
+    padding: 100px;
 }
 
-.left-box h3 {
+/*.left-box h3 {
     font-size: 1.4rem;
     color: #D9AC59;
     margin-bottom: 10px;
-    margin-top: 0; /* Garante que o título fique no topo */
-}
+    margin-top: 0; /* Garante que o título fique no topo 
+
 
 .left-box p {
     font-size: 1rem;
     color: #444;
     line-height: 1.5;
     text-align: justify;
-}
+}*/
 
 .right-box {
-    width: 70%; /* Caixa maior, com 60% de largura */
+    width: 50%; /* Caixa maior, com 60% de largura */
     padding: 50px;
     background-color: #ffffff;
     border: 1px solid #ddd;
