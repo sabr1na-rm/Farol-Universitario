@@ -164,6 +164,14 @@ h1 {
     line-height: 1.6;
     margin-bottom: 20px;
     text-align: justify;
+    
+}
+.sobre-nos ul{
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
 }
 
 .content {
@@ -200,6 +208,12 @@ h1 {
     color: #444;
     line-height: 1.5;
     text-align: justify;
+}
+a {
+    color: #444; /* Define a cor padrão para os links */
+}
+a:hover {
+    color: blue; /* Cor ao passar o mouse */
 }
 
 /* Responsividade */
