@@ -17,7 +17,9 @@ A página inicial do site.
 - Links rápidos para áreas mais acessadas.
 - Uma mensagem de boas-vindas aos alunos e bolsistas.
 
-3. ACADÊMICO
+2. ACADÊMICO
+![academico](https://github.com/user-attachments/assets/8a90d90d-564e-4983-be73-8749143b66da)
+
 Uma seção focada em informações acadêmicas.
 
 - Links para acesso ao sistema acadêmico (notas, matrículas, histórico escolar, etc.).
@@ -26,6 +28,8 @@ Uma seção focada em informações acadêmicas.
 - Contatos de coordenações e departamentos.
 
 3. BOLSISTAS
+![bolsistas](https://github.com/user-attachments/assets/879fa8d4-2b3b-4563-921d-405e1a966813)
+
 Espaço exclusivo para alunos que participam de programas de bolsa.
 
 - Regras, direitos e deveres dos bolsistas.
@@ -35,6 +39,8 @@ Espaço exclusivo para alunos que participam de programas de bolsa.
 - Área para contato direto com o setor responsável por bolsas.
 
 4. VIVÊNCIA
+![vivencias](https://github.com/user-attachments/assets/ed615f32-68c6-4691-8fff-d862a02c6ff2)
+
 Dedicada à experiência universitária além da sala de aula.
 
 - Agenda de eventos acadêmicos, culturais e esportivos promovidos pela universidade.
@@ -43,6 +49,8 @@ Dedicada à experiência universitária além da sala de aula.
 - Projetos de voluntariado e intercâmbio.
 
 5. OUTROS
+![outros](https://github.com/user-attachments/assets/35072ad6-1d57-47c4-a9f6-bc374e956f69)
+
 Um espaço para informações complementares que não se encaixam diretamente em outras categorias.
 
 - Programas de apoio psicológico e acadêmico.
