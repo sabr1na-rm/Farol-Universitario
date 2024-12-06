@@ -185,7 +185,8 @@ h1 {
 }
 
 .left-box {
-    width: 20%; /* Largura da caixa */
+    width: 28%; /* Largura da caixa */
+    height: auto;
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #ddd;
@@ -213,7 +214,7 @@ h1 {
 }
 
 .right-box {
-    width: 70%; /* Caixa maior, com 60% de largura */
+    width: 60%; /* Caixa maior, com 60% de largura */
     padding: 50px;
     background-color: #ffffff;
     border: 1px solid #ddd;
