@@ -18,6 +18,7 @@ A página inicial do site.
 - Uma mensagem de boas-vindas aos alunos e bolsistas.
 
 2. ACADÊMICO
+   
 ![academico](https://github.com/user-attachments/assets/8a90d90d-564e-4983-be73-8749143b66da)
 
 Uma seção focada em informações acadêmicas.
