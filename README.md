@@ -50,6 +50,7 @@ Um espaço para informações complementares que não se encaixam diretamente em
 - Parcerias com empresas ou instituições externas para estágios e cursos.
 
 6. CONTATE-NOS
+![2000](https://github.com/user-attachments/assets/0c4aef40-f515-4ac2-a04a-1b5ce0d83d51)
 Canal de comunicação direta entre os usuários do site e os responsáveis.
 
 - Formulário para envio de dúvidas, sugestões ou solicitações.
@@ -57,6 +58,8 @@ Canal de comunicação direta entre os usuários do site e os responsáveis.
 - Mapa do campus, se necessário, para facilitar o acesso físico.
 
 7. SITE OFICIAL PUCC
+   ![3000](https://github.com/user-attachments/assets/8166fae5-2bf2-4e9d-a5bd-789688ed8ff2)
+
 Link para o site principal da Pontifícia Universidade Católica.
 
 - Um botão ou link direto que leva os usuários à página oficial da universidade, onde estão disponíveis informações institucionais mais amplas.
