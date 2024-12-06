@@ -29,6 +29,7 @@ Uma seção focada em informações acadêmicas.
 - Contatos de coordenações e departamentos.
 
 3. BOLSISTAS
+
 ![bolsistas](https://github.com/user-attachments/assets/879fa8d4-2b3b-4563-921d-405e1a966813)
 
 Espaço exclusivo para alunos que participam de programas de bolsa.
@@ -40,6 +41,7 @@ Espaço exclusivo para alunos que participam de programas de bolsa.
 - Área para contato direto com o setor responsável por bolsas.
 
 4. VIVÊNCIA
+
 ![vivencias](https://github.com/user-attachments/assets/ed615f32-68c6-4691-8fff-d862a02c6ff2)
 
 Dedicada à experiência universitária além da sala de aula.
@@ -50,6 +52,7 @@ Dedicada à experiência universitária além da sala de aula.
 - Projetos de voluntariado e intercâmbio.
 
 5. OUTROS
+
 ![outros](https://github.com/user-attachments/assets/35072ad6-1d57-47c4-a9f6-bc374e956f69)
 
 Um espaço para informações complementares que não se encaixam diretamente em outras categorias.
@@ -59,6 +62,7 @@ Um espaço para informações complementares que não se encaixam diretamente em
 - Parcerias com empresas ou instituições externas para estágios e cursos.
 
 6. CONTATE-NOS
+
 ![2000](https://github.com/user-attachments/assets/0c4aef40-f515-4ac2-a04a-1b5ce0d83d51)
 Canal de comunicação direta entre os usuários do site e os responsáveis.
 
@@ -67,6 +71,7 @@ Canal de comunicação direta entre os usuários do site e os responsáveis.
 - Mapa do campus, se necessário, para facilitar o acesso físico.
 
 7. SITE OFICIAL PUCC
+
    ![3000](https://github.com/user-attachments/assets/8166fae5-2bf2-4e9d-a5bd-789688ed8ff2)
 
 Link para o site principal da Pontifícia Universidade Católica.
