@@ -18,10 +18,9 @@ A página inicial do site.
 - Uma mensagem de boas-vindas aos alunos e bolsistas.
 
 2. ACADÊMICO
+Uma seção focada em informações acadêmicas.
    
 ![academico](https://github.com/user-attachments/assets/8a90d90d-564e-4983-be73-8749143b66da)
-
-Uma seção focada em informações acadêmicas.
 
 - Links para acesso ao sistema acadêmico (notas, matrículas, histórico escolar, etc.).
 - Informações sobre disciplinas, grade curricular e cronograma acadêmico.
@@ -29,10 +28,9 @@ Uma seção focada em informações acadêmicas.
 - Contatos de coordenações e departamentos.
 
 3. BOLSISTAS
+   Espaço exclusivo para alunos que participam de programas de bolsa.
 
 ![bolsistas](https://github.com/user-attachments/assets/879fa8d4-2b3b-4563-921d-405e1a966813)
-
-Espaço exclusivo para alunos que participam de programas de bolsa.
 
 - Regras, direitos e deveres dos bolsistas.
 - Prazos para renovação ou atualização de bolsas.
