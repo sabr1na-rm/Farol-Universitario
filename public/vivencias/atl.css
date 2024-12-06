@@ -12,14 +12,17 @@ body {
     background-image: url("../assents/inicial/PUC-aerea-02.jpg");
 }
 
-header {
+
+header {    
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
     background-color:#D9AC59;
     color:aliceblue;
+    
 }
+
 .logo img{
     width: 180px;
     height: 180px;
@@ -81,6 +84,7 @@ h1 {
     margin-top: 30px;
     text-align: center;
 }
+
 .auxiliar{
     width: 100%;
     height: auto;
@@ -155,7 +159,7 @@ h1 {
     margin-top: 30px;
     text-align: center;
     padding: 20px;
-    background-color: transparent;
+    background-color: #f9f9f9;
     border-radius: 8px;
 }
 
@@ -183,6 +187,7 @@ h1 {
 
 .left-box {
     width: 20%; /* Largura da caixa */
+    height: auto;
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #ddd;
@@ -233,6 +238,31 @@ h1 {
     text-align: justify;
 }
 
+.COMUNICA img{
+    width: 65%;
+    height:auto ;
+}
+.FACECA img{
+    width: 65%;
+    height:auto ;
+}
+.FAU img{
+    width: 73%;
+    height:auto ;
+}
+.LAP img{
+    width: 75%;
+    height:auto ;
+}
+.LEP img{
+    width: 75%;
+    height:auto ;
+}
+.DIREITO img{
+    width: 75%;
+    height:auto ;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     .content {
@@ -248,20 +278,6 @@ h1 {
         font-size: 1.8rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Estilo para o container do dropdown */
 .dropdown {

@@ -92,7 +92,7 @@ h1 {
 .content {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: -10px;
 }
 
 .left-box {
@@ -100,13 +100,6 @@ h1 {
     height: 300px;
     border: 1px solid black;
 }
-.left-box{
-    display: flex; /* Habilita o uso de flexbox */
-    align-items: center; /* Centraliza verticalmente o conteúdo */
-    justify-content: center; /* Centraliza horizontalmente o conteúdo */
-    text-align: center; /* Centraliza o texto dentro das caixas */
-}
-
 .contato {
     position: relative;
     display: inline-block;
@@ -152,7 +145,6 @@ h1 {
 }
 
 .sobre-nos {
-    margin-top: 30px;
     text-align: center;
     padding: 20px;
     background-color: transparent;
@@ -161,6 +153,7 @@ h1 {
 
 .sobre-nos h2 {
     font-size: 2rem;
+    margin-top: 20px;
     margin-bottom: 20px;
     color: #D9AC59;
 }
@@ -171,53 +164,37 @@ h1 {
     line-height: 1.6;
     margin-bottom: 20px;
     text-align: justify;
+    
+}
+.sobre-nos ul{
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
 }
 
 .content {
     display: flex;
-    justify-content: space-between;
-    gap: 5px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.left-box {
-    width: 20%; /* Largura da caixa */
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
+    flex-direction: column;
     border-radius: 8px;
+    justify-content: justify; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente (opcional) */
+    min-height: 10vh; /* Garante altura total da página */
+    background-color: #f4f4f4; /* Fundo para destacar */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    display: flex;
-    flex-direction: column;      /* Organiza os itens na vertical */
-    justify-content: flex-start; /* Garante que o conteúdo comece do topo */
-    margin-left: 30px;
 }
-
-.left-box h3 {
-    font-size: 1.4rem;
-    color: #D9AC59;
-    margin-bottom: 10px;
-    margin-top: 0; /* Garante que o título fique no topo */
-}
-
-.left-box p {
-    font-size: 1rem;
-    color: #444;
-    line-height: 1.5;
-    text-align: justify;
-}
-
 .right-box {
-    width: 70%; /* Caixa maior, com 60% de largura */
+    width: 80%; /* Caixa maior, com 60% de largura */
     padding: 50px;
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-right: 60px;
+    margin: 20px - auto;
+    margin-bottom: 20px;
+
 }
 
 .right-box h3 {
@@ -231,6 +208,12 @@ h1 {
     color: #444;
     line-height: 1.5;
     text-align: justify;
+}
+a {
+    color: #444; /* Define a cor padrão para os links */
+}
+a:hover {
+    color: blue; /* Cor ao passar o mouse */
 }
 
 /* Responsividade */
@@ -248,21 +231,6 @@ h1 {
         font-size: 1.8rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Estilo para o container do dropdown */
 .dropdown {
     position: relative;

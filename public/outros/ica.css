@@ -194,6 +194,20 @@ h1 {
     justify-content: flex-start; /* Garante que o conteúdo comece do topo */
     margin-left: 30px;
 }
+#area{
+    width: 300px;
+    height: 500px;
+}
+
+#area2{
+    width: 300px;
+    height: 300px;
+}
+#area3{
+    width: 300px;
+    height: 500px;
+}
+
 
 .left-box h3 {
     font-size: 1.4rem;
@@ -265,6 +279,39 @@ h1 {
 
 
 
+/*iniciação cientificaaaaaaaaaaaaaa*/
+.ic .botao.ouro, .btn.btn-primary {
+    background-color: #D4A23F !important;
+}
+.ic .btn, .card-evento .botao {
+    padding: 11px 25px;
+}
+.ic .botao, .btn {
+    color: #FFFFFF !important;
+    font-weight: bold;
+    line-height: 1.33em;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    font-size: 0.9em;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 5px 0;
+    transition: all 0.35s ease;
+}
+
+
+.ic a {
+    color: #003383;
+    text-decoration: none;
+ 
+}
+.ic p {
+    text-align: center;
+}
+
+
 
 
 
@@ -326,3 +373,5 @@ h1 {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
