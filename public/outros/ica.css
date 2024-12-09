@@ -49,7 +49,6 @@ h1 {
     text-decoration: none;           /* Remove o sublinhado padrão dos links */
     color: white;                   /* Define a cor do texto como branco */
     background-color: #D9AC59;         /* Define a cor de fundo do botão */
-    padding: 10px 15px;             /* Adiciona espaçamento interno ao botão */
     border-radius: 5px;             /* Arredonda os cantos do botão */
     transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
 }
@@ -60,19 +59,15 @@ h1 {
     list-style-type: none;
     display: flex;
     gap: 8px;
+    
 }
 
 .menu li {
     padding: 10px;
 }
 
-.menu a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
 .menu-icon {
-    font-size: 24px;
+    font-size: 10px;
     display: none;
 }
 
