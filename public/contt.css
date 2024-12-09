@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to right, rgb(1, 0, 65) ,rgb(101, 0, 0));
+    background-image: linear-gradient(to right,#ebc47c , #8c6721);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
@@ -31,7 +31,7 @@ body {
 }
 
 h1 {
-    background-color: rgb(101, 0, 0);
+    background-color: #8c6721;
     border-radius: 30px;
     margin: 40px;
     text-align: center;
@@ -52,7 +52,7 @@ p {
 input[type="text"] {
     background-color: #ffffff;
     /* Cor de fundo para e-mail */
-    border: 2px solid rgb(101, 0, 0);
+    border: 2px solid #8c6721;
     border-radius: 5px;
     font-size: 11px;
     padding: 5px;
@@ -61,7 +61,7 @@ input[type="text"] {
 input[type="email"] {
     background-color: #ffffff;
     /* Cor de fundo para e-mail */
-    border: 2px solid rgb(101, 0, 0);
+    border: 2px solid #8c6721;
     border-radius: 5px;
     font-size: 11px;
     padding: 5px;
@@ -76,13 +76,13 @@ button {
     margin: 15px;
     /*Espaçamento*/
     border-radius: 20px;
-    background: rgb(101, 0, 0);
+    background:#8c6721;
     color: white;
     transition: 0.5s ease;
 }
 
 button:hover {
-    background-color: rgb(144, 0, 0);
+    background-color: #8c6721;
     color: white;
     transform: scale(1.2)
 }
@@ -90,7 +90,7 @@ button:hover {
 .dentro {
     background-color: #ffffff;
     /* Cor de fundo para e-mail */
-    border: 2px solid rgb(101, 0, 0);
+    border: 2px solid#8c6721;
     border-radius: 5px;
     font-size: 11px;
     padding: 5px;
